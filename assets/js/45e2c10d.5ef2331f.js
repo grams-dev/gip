@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgip=self.webpackChunkgip||[]).push([[6241],{386:(e,t,l)=>{l.r(t),l.d(t,{default:()=>r});var n=l(7294),a=l(7961);function r(){return n.createElement(a.Z,{title:"All",description:"all GIPs"},n.createElement("main",null,"Interface"))}}}]);
