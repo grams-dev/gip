@@ -1,4 +1,6 @@
-# Website
+# Grams Improvement Proposals (GIPs)
+
+The goal of the GIP project is to standardize and provide high-quality documentation for Grams itself and conventions built upon it. This standard is heavily inspired and uses a lot of the [Ethereum Improvement Proposals (EIPs)](https://github.com/ethereum/EIPs)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
