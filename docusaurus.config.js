@@ -75,28 +75,34 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'GIPs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'All',
+                to: '/all',
               },
+              { to: '/core', label: 'Core' },
+              { to: '/networking', label: 'Networking' },
+              { to: '/interfaces', label: 'Interface' },
+              { to: '/grc', label: 'GRC' },
+              { to: '/meta', label: 'Meta' },
+              { to: '/informational', label: 'Informational' }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Stack Exchange',
+                href: 'https://stackoverflow.com/questions/tagged/grams',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/grams',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/grams',
               },
             ],
           },
@@ -104,17 +110,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/grams-dev/gip',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Grams.`,
       },
       prism: {
         theme: lightCodeTheme,

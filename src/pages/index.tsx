@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Intro from '@site/docs/intro.mdx';
 
 import styles from './index.module.css';
 
@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Get started with GIP-1 ⏱️
+            to="/docs/GIP-1">
+            Get started with GIP-1
           </Link>
         </div>
       </div>
@@ -34,7 +34,9 @@ export default function Home(): JSX.Element {
       description="Grams Improvement Proposals">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className={clsx(styles.content)}>
+          <Intro />
+        </div>
       </main>
     </Layout>
   );
